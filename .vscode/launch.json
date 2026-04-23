@@ -11,6 +11,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
             "env": {
                 "JAMA_USERNAME": "ttakahashi",
                 "JAMA_PASSWORD": "SE939es5"
